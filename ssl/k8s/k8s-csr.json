@@ -1,0 +1,24 @@
+{
+    "CN": "k8s",
+    "hosts": [
+        "kungeek.com",
+        "*.kungeek.com",
+        "k8s.kungeek.com",
+        "etcd.k8s.kungeek.com",
+        "master.k8s.kungeek.com",
+        "apiserver.k8s.kungeek.com"
+    ],
+    "key": {
+        "algo": "ecdsa",
+        "size": 256
+    },
+    "names": [
+        {
+            "C": "CN",
+            "L": "GD",
+            "ST": "GZ",
+            "O": "k8s",
+            "OU": "System"
+        }
+    ]
+}
